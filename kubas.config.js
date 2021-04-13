@@ -24,13 +24,11 @@ module.exports = {
             "white": "#fff"
         },
         font: {
-            "base": `-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"`,
-            "mono": `"Jet Brains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace`
+            "base": `-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"`
         },
         weight: {
-            400: 400,
-            700: 700,
-            900: 900
+            normal: 400,
+            bold: 700
         },
         size: {
             'xs': `clamp(0.6075rem, 0.5636rem + 0.2195vw, 0.72rem)`,
